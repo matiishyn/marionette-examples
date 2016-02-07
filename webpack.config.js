@@ -26,7 +26,8 @@ module.exports = {
             server: {baseDir: ['app']}
         })
     ],
-    watch: true
+    watch: true,
+    devtool: 'source-map'
     /*devServer: {
      contentBase: "./app"
      }*/
